@@ -29,6 +29,7 @@ export default function RootLayout({
 			<body className={lexendDeca.className}>
 				<Header />
 				{children}
+				<Analytics />
 				<Footer />
 			</body>
 		</html>
