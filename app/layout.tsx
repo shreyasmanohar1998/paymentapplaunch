@@ -3,6 +3,7 @@ import { Lexend_Deca } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/common/Header';
 import Footer from '@/components/common/Footer';
+import { Analytics } from "@vercel/analytics/react"
 
 const lexendDeca = Lexend_Deca({ subsets: ['latin'] });
 
